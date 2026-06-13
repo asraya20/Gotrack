@@ -1,0 +1,7 @@
+django>=5.2
+djangorestframework
+dj-rest-auth
+django-allauth
+django-cors-headers
+djoser
+psycopg2-binary
