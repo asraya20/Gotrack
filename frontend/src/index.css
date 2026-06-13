@@ -1,0 +1,26 @@
+/* frontend/src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* Define your beautiful color palette as CSS variables */
+:root {
+  --pakistan-green: #283618;
+  --dark-moss-green: #606c38;
+  --cornsilk: #fefae0;
+  --earth-yellow: #dda15e;
+  --tigers-eye: #bc6c25;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Apply your palette */
+  background-color: var(--cornsilk);
+  color: var(--pakistan-green);
+}
+
+* {
+  box-sizing: border-box;
+}
